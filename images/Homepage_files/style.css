@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+
+}
+
+.nav-links {
+  display:inline-flex;
+  text-decoration: none; 
+  color: black; 
+  position: relative;
+  width: 25%;
+  text-align: center;
+
+}
+
+.nav-bar {
+  background: black;
+  position: relative;
+  overflow: auto;
+  width: 100%;
+padding: 12px;
+}
+
+.nav-name {
+  color: white;
+  
+}
+
+.bg-img {
+height: auto;
+position: absolute;
+}
+

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Homepage_files/style.css">
+    <title>Homepage</title>
+  </head>
+  <body>
+    <div class="bg-img">
+      <img src="./Homepage_files/rust-game-72b079fxn1h603f4.jpg" alt="rg">
+    </div>
+    <span>
+      <div class="nav-bar">
+        <h1 class="nav-name">Ground Zero</h1>
+        <ul class="nav-links">
+          <li><a href="http://127.0.0.1:5500/Home">home</a></li>
+          <li><a href="http://127.0.0.1:5500/About">About</a></li>
+          <li><a href="http://127.0.0.1:5500/Sign%20Up">Sign Up</a></li>
+        </ul>
+      </div>
+    </span>
+
+    <br>
+
+    <span>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          Necessitatibus ab, facilis a ipsam reprehenderit, voluptatem at
+          expedita nulla suscipit nemo laborum eum tenetur debitis sapiente ex,
+          nostrum corrupti beatae est. Lorem ipsum dolor sit amet consectetur,
+          adipisicing elit. Necessitatibus ab, facilis a ipsam reprehenderit,
+          voluptatem at expedita nulla suscipit nemo laborum eum tenetur debitis
+          sapiente ex, nostrum corrupti beatae est. Lorem ipsum dolor sit amet
+          consectetur, adipisicing elit. Necessitatibus ab, facilis a ipsam
+          reprehenderit, voluptatem at expedita nulla suscipit nemo laborum eum
+          tenetur debitis sapiente ex, nostrum corrupti beatae est.
+        </p>
+      </div>
+    </span>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
